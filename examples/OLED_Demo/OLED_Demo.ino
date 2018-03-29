@@ -1,6 +1,6 @@
 #include <DSPI.h>
 #include <SH1106.h>
-#include <SH1106_DTWI.h>
+#include <SH1106_DSPI.h>
 
 DSPI0 tftSpi;
 SH1106_DSPI tft(tftSpi, 10, 9, 8); //CS, DC, RES
